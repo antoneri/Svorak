@@ -1,1 +1,4 @@
-releases/*
+.DS_Store
+build/
+releases/
+*.pkg
