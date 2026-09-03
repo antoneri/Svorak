@@ -935,19 +935,15 @@
 			<when state="none" next="tilde"/>
 		</action>
 		<action id="&#x003c;">
-			<when state="acute" output=""/>
 			<when state="none" output="&#x003c;"/>
 		</action>
 		<action id="*">
-			<when state="acute" output=""/>
 			<when state="none" output="*"/>
 		</action>
 		<action id="+">
-			<when state="acute" output=""/>
 			<when state="none" output="+"/>
 		</action>
 		<action id="-">
-			<when state="acute" output=""/>
 			<when state="none" output="-"/>
 		</action>
 		<action id="0">
@@ -986,13 +982,11 @@
 			<when state="2" output="&#x00f9;"/>
 			<when state="3" output="&#x00fb;"/>
 			<when state="4" output="&#x00fc;"/>
-			<when state="acute" output=""/>
 			<when state="none" output="g"/>
 		</action>
 		<action id="13">
 			<when state="1" output="&#x00fd;"/>
 			<when state="4" output="&#x00ff;"/>
-			<when state="acute" output=""/>
 			<when state="none" output="f"/>
 		</action>
 		<action id="14">
@@ -1079,15 +1073,12 @@
 			<when state="2" output="&#x00e8;"/>
 			<when state="3" output="&#x00ea;"/>
 			<when state="4" output="&#x00eb;"/>
-			<when state="acute" output=""/>
 			<when state="none" output="ö"/>
 		</action>
 		<action id="?">
-			<when state="acute" output=""/>
 			<when state="none" output="?"/>
 		</action>
 		<action id="D">
-			<when state="acute" output=""/>
 			<when state="none" output="D"/>
 		</action>
 		<action id="E">
@@ -1097,7 +1088,6 @@
 			<when state="umlaut" output="Ë"/>
 		</action>
 		<action id="H">
-			<when state="acute" output=""/>
 			<when state="none" output="H"/>
 		</action>
 		<action id="I">
@@ -1107,23 +1097,18 @@
 			<when state="umlaut" output="Ï"/>
 		</action>
 		<action id="J">
-			<when state="acute" output=""/>
 			<when state="none" output="J"/>
 		</action>
 		<action id="K">
-			<when state="acute" output=""/>
 			<when state="none" output="K"/>
 		</action>
 		<action id="L">
-			<when state="acute" output=""/>
 			<when state="none" output="L"/>
 		</action>
 		<action id="M">
-			<when state="acute" output=""/>
 			<when state="none" output="M"/>
 		</action>
 		<action id="N">
-			<when state="acute" output=""/>
 			<when state="none" output="N"/>
 			<when state="tilde" output="Ñ"/>
 		</action>
@@ -1135,19 +1120,15 @@
 			<when state="umlaut" output="Ö"/>
 		</action>
 		<action id="P">
-			<when state="acute" output=""/>
 			<when state="none" output="P"/>
 		</action>
 		<action id="Q">
-			<when state="acute" output=""/>
 			<when state="none" output="Q"/>
 		</action>
 		<action id="S">
-			<when state="acute" output=""/>
 			<when state="none" output="S"/>
 		</action>
 		<action id="T">
-			<when state="acute" output=""/>
 			<when state="none" output="T"/>
 		</action>
 		<action id="U">
@@ -1158,45 +1139,35 @@
 			<when state="umlaut" output="Ü"/>
 		</action>
 		<action id="V">
-			<when state="acute" output=""/>
 			<when state="none" output="V"/>
 		</action>
 		<action id="W">
-			<when state="acute" output=""/>
 			<when state="none" output="W"/>
 		</action>
 		<action id="X">
-			<when state="acute" output=""/>
 			<when state="none" output="X"/>
 		</action>
 		<action id="Y">
-			<when state="acute" output=""/>
 			<when state="circumflex" output="Ŷ"/>
 			<when state="none" output="Y"/>
 			<when state="umlaut" output="Ÿ"/>
 		</action>
 		<action id="Z">
-			<when state="acute" output=""/>
 			<when state="none" output="Z"/>
 		</action>
 		<action id="_">
-			<when state="circumflex" output=""/>
 			<when state="none" output="_"/>
 		</action>
 		<action id="colon">
-			<when state="acute" output=""/>
 			<when state="none" output=":"/>
 		</action>
 		<action id="comma">
-			<when state="acute" output=""/>
 			<when state="none" output=","/>
 		</action>
 		<action id="d">
-			<when state="acute" output=""/>
 			<when state="none" output="d"/>
 		</action>
 		<action id="dot">
-			<when state="acute" output=""/>
 			<when state="none" output="."/>
 		</action>
 		<action id="e">
@@ -1207,11 +1178,9 @@
 			<when state="umlaut" output="ë"/>
 		</action>
 		<action id="greater than">
-			<when state="acute" output=""/>
 			<when state="none" output="&gt;"/>
 		</action>
 		<action id="h">
-			<when state="acute" output=""/>
 			<when state="none" output="h"/>
 		</action>
 		<action id="i">
@@ -1222,23 +1191,18 @@
 			<when state="umlaut" output="ï"/>
 		</action>
 		<action id="j">
-			<when state="acute" output=""/>
 			<when state="none" output="j"/>
 		</action>
 		<action id="k">
-			<when state="acute" output=""/>
 			<when state="none" output="k"/>
 		</action>
 		<action id="l">
-			<when state="acute" output=""/>
 			<when state="none" output="l"/>
 		</action>
 		<action id="m">
-			<when state="acute" output=""/>
 			<when state="none" output="m"/>
 		</action>
 		<action id="n">
-			<when state="acute" output=""/>
 			<when state="none" output="n"/>
 			<when state="tilde" output="ñ"/>
 		</action>
@@ -1251,27 +1215,21 @@
 			<when state="umlaut" output="ö"/>
 		</action>
 		<action id="p">
-			<when state="acute" output=""/>
 			<when state="none" output="p"/>
 		</action>
 		<action id="q">
-			<when state="acute" output=""/>
 			<when state="none" output="q"/>
 		</action>
 		<action id="quote">
-			<when state="acute" output=""/>
 			<when state="none" output="'"/>
 		</action>
 		<action id="s">
-			<when state="acute" output=""/>
 			<when state="none" output="s"/>
 		</action>
 		<action id="semicolon">
-			<when state="acute" output=""/>
 			<when state="none" output=";"/>
 		</action>
 		<action id="t">
-			<when state="acute" output=""/>
 			<when state="none" output="t"/>
 		</action>
 		<action id="u">
@@ -1282,45 +1240,35 @@
 			<when state="umlaut" output="ü"/>
 		</action>
 		<action id="v">
-			<when state="acute" output=""/>
 			<when state="none" output="v"/>
 		</action>
 		<action id="w">
-			<when state="acute" output=""/>
 			<when state="none" output="w"/>
 		</action>
 		<action id="x">
-			<when state="acute" output=""/>
 			<when state="none" output="x"/>
 		</action>
 		<action id="y">
-			<when state="acute" output=""/>
 			<when state="circumflex" output="ŷ"/>
 			<when state="none" output="y"/>
 			<when state="umlaut" output="ÿ"/>
 		</action>
 		<action id="z">
-			<when state="acute" output=""/>
 			<when state="none" output="z"/>
 		</action>
 		<action id="§">
-			<when state="acute" output=""/>
 			<when state="none" output="§"/>
 		</action>
 		<action id="Ä">
-			<when state="acute" output=""/>
 			<when state="none" output="Ä"/>
 		</action>
 		<action id="Å">
-			<when state="acute" output=""/>
 			<when state="none" output="Å"/>
 		</action>
 		<action id="ä">
-			<when state="acute" output=""/>
 			<when state="none" output="ä"/>
 		</action>
 		<action id="å">
-			<when state="acute" output=""/>
 			<when state="none" output="å"/>
 		</action>
 	</actions>
